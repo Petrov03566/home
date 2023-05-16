@@ -1,0 +1,16 @@
+QMainWindow{
+    background-color: rgb(129, 233, 185);
+}
+QLabel{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+QPushButton{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#capcha{
+    background-color: brown;
+    text-decoration: line-through;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
