@@ -1,7 +1,7 @@
 import sys
 from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QLabel, QVBoxLayout, QLineEdit, QPushButton
-from second import SecondWindow
-from capcha import Capcha
+from second import Second
+from capha import Capha
 
         
 class MainWindow(QMainWindow):
@@ -32,10 +32,10 @@ class MainWindow(QMainWindow):
         
     def btn_click(self):
         if self.line_log.text() == "user" and self.line_pas.text() == "1234":
-            self.second = SecondWindow()
+            self.second = Second()
             self.second.show()
         else:
-            self.capcha = Capcha()
+            self.capcha = Capha()
             self.capcha.show()
     
 
