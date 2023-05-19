@@ -7,10 +7,9 @@ QLabel{
 }
 QPushButton{
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blue;
 }
 #capcha{
     background-color: brown;
-    text-decoration: line-through;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
