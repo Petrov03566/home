@@ -3,7 +3,7 @@ from PyQt6.QtWidgets import QWidget, QLabel, QVBoxLayout, QLineEdit, QPushButton
 from PyQt6.QtCore import QTimer
 from PyQt6 import QtCore
 
-class Capcha(QWidget):
+class Capha(QWidget):
     def __init__(self):
         super().__init__()
         self.vbox = QVBoxLayout()
